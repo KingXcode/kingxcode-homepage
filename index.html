@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="KingXcode - Developer & Creator">
+    <meta property="og:title" content="KingXcode">
+    <meta property="og:description" content="Developer & Creator">
+    <meta property="og:type" content="website">
+    <title>KingXcode</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-inner">
+            <a href="#" class="logo">KX</a>
+            <button class="nav-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero -->
+        <section class="hero">
+            <div class="container">
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-title">KingXcode</h1>
+                <p class="hero-subtitle">Developer &amp; Creator</p>
+                <p class="hero-desc">Building elegant solutions through clean code.</p>
+                <div class="hero-links">
+                    <a href="https://github.com/KingXcode" class="hero-link" target="_blank" rel="noopener">GitHub</a>
+                    <a href="#work" class="hero-link">View Work ↓</a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span></span>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About</h2>
+                <div class="about-content">
+                    <p>I'm a passionate developer who enjoys turning ideas into reality through code. With a focus on clean architecture and minimal design, I build tools and applications that are both functional and beautiful.</p>
+                    <p>My approach is simple: write less, do more. I believe in the power of well-crafted software to solve real problems.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work / Projects -->
+        <section id="work" class="section">
+            <div class="container">
+                <h2 class="section-title">Selected Work</h2>
+                <div class="projects">
+                    <article class="project-card">
+                        <div class="project-number">01</div>
+                        <h3 class="project-title">Project Alpha</h3>
+                        <p class="project-desc">A high-performance tool built with modern web technologies.</p>
+                        <div class="project-tags">
+                            <span>TypeScript</span>
+                            <span>React</span>
+                            <span>Node.js</span>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-number">02</div>
+                        <h3 class="project-title">Project Beta</h3>
+                        <p class="project-desc">An open-source library for simplifying complex workflows.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Rust</span>
+                        </div>
+                    </article>
+                    <article class="project-card">
+                        <div class="project-number">03</div>
+                        <h3 class="project-title">Project Gamma</h3>
+                        <p class="project-desc">A CLI utility that makes development faster and smoother.</p>
+                        <div class="project-tags">
+                            <span>Go</span>
+                            <span>Shell</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Get in Touch</h2>
+                <p class="contact-text">Have a project in mind or just want to say hi? I'd love to hear from you.</p>
+                <a href="https://github.com/KingXcode" class="contact-link" target="_blank" rel="noopener">Find me on GitHub →</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">&copy; <span id="year"></span> KingXcode. Built with simplicity.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
